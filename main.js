@@ -14,4 +14,10 @@ console.log('测试选择函数', app);
 console.log('测试DOM函数', $(app));
 
 // 测试 ready 函数
-$(() => console.log('测试 ready 函数', 'hello'));
+$(() => console.log('测试 ready 函数', 'ready'));
+
+// 测试事件函数
+$('#app').click(() => console.log('测试事件函数', 'click'));
+
+// 测试事件函数
+$('#app').on('click', () => console.log('测试事件函数', 'on'));
