@@ -1,0 +1,3 @@
+[submodule "packages/easy-dom-query"]
+	path = packages/easy-dom-query
+	url = git@github.com:pushmetop/easy-dom-query.git
