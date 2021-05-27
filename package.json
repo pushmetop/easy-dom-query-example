@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "vite": "^2.3.4",
-    "easy-dom-query": "^1.0.0"
+    "easy-dom-query": "file:packages/easy-dom-query"
   }
 }
